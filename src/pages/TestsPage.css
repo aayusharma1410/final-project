@@ -1,0 +1,15 @@
+.tests-page {
+  padding: 20px;
+}
+
+.tests-page h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}

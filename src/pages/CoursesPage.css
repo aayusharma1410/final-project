@@ -1,0 +1,14 @@
+.courses-page {
+  padding: 20px;
+}
+
+.courses-page h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}

@@ -1,0 +1,24 @@
+.discussion-page {
+  padding: 20px;
+}
+
+.discussion-page h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.create-group-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.discussion-groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
